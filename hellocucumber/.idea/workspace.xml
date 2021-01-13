@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="567f9319-0925-445a-85bf-e5ddcdaacce6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/CheckItem.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/AddItemToCart.feathure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/CheckItem.feathure" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/AddItemToCart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feathure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem.feathure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/AddItemToCart.feathure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/CheckItem.feathure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/GoShoppingCart.feathure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/SelectFirstItem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/CheckItem.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,13 +27,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/Login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="6" />
+            <state relative-caret-position="136">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -51,25 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="119">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/CheckItem.feature">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/AddItemToCart.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -86,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="282">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,12 +92,12 @@
         <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/hellocucumber/Pages/CheckoutOverviewPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/hellocucumber/Pages/InventoryPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem" />
         <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem.feathure" />
         <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/AddItemToCart.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions.java" />
       </list>
     </option>
   </component>
@@ -167,6 +153,15 @@
               <item name="hellocucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hellocucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellocucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellocucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610520768909" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610521292539" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,7 +205,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: SelectFirstItem (2)">
+  <component name="RunManager" selected="Cucumber java.Feature: AddItemToCart">
+    <configuration name="Feature: AddItemToCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/hellocucumber/AddItemToCart.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="hellocucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AddItemToCart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/hellocucumber/Login.feature" />
@@ -281,10 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: AddItemToCart" />
         <item itemvalue="Cucumber java.Feature: SelectFirstItem (2)" />
+        <item itemvalue="Cucumber java.Feature: Login" />
         <item itemvalue="Cucumber java.Feature: SelectFirstItem" />
         <item itemvalue="Cucumber java.Feature: SelectFirstItem (1)" />
-        <item itemvalue="Cucumber java.Feature: Login" />
       </list>
     </recent_temporary>
   </component>
@@ -299,20 +312,11 @@
       <option name="presentableId" value="Default" />
       <updated>1610474903437</updated>
       <workItem from="1610474907004" duration="310000" />
-      <workItem from="1610519857233" duration="905000" />
+      <workItem from="1610519857233" duration="1425000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Login - 2021.01.13 at 09h 38m 16s.xml">
-      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__SelectFirstItem - 2021.01.13 at 09h 39m 55s.xml">
-      <configuration name="Feature: SelectFirstItem" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__SelectFirstItem - 2021.01.13 at 09h 40m 17s.xml">
-      <configuration name="Feature: SelectFirstItem" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__Login - 2021.01.13 at 09h 40m 33s.xml">
       <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -334,15 +338,24 @@
     <history-entry file="Feature__SelectFirstItem_(2) - 2021.01.13 at 09h 52m 45s.xml">
       <configuration name="Feature: SelectFirstItem (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__Login - 2021.01.13 at 09h 53m 44s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SelectFirstItem_(2) - 2021.01.13 at 09h 54m 20s.xml">
+      <configuration name="Feature: SelectFirstItem (2)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__AddItemToCart - 2021.01.13 at 09h 54m 56s.xml">
+      <configuration name="Feature: AddItemToCart" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1215000" />
+    <option name="totallyTimeSpent" value="1735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,7 +365,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4767064" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4767064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,13 +415,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/Pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -467,27 +473,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem.feathure">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="41" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -505,30 +494,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/AddItemToCart.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/CheckItem.feathure">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/AddItemToCart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/Login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hellocucumber/StepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/CheckItem.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/SelectFirstItem.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hellocucumber/GoShoppingCart.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
