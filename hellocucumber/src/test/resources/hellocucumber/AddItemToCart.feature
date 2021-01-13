@@ -1,3 +1,4 @@
+@Login
 Feature: Add Item to Cart Functionability
   As a standard user of Saucedemo
   I want to add first item to ShoppingCart

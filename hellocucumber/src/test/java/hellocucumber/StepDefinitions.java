@@ -25,8 +25,9 @@ public class StepDefinitions {
     static WebDriver driver;
     static String currentURL = "";
     static WebDriverWait wait;
-    static InventoryPage inventoryPage;
     static LoginPage loginPage;
+    static InventoryPage inventoryPage;
+    static InventoryItemPage inventoryItemPage;
 ///////////////////////LOGIN//////////////////////
 
     @Given("I am on the Login Page of Sauce demo")
@@ -87,19 +88,15 @@ public class StepDefinitions {
 
     @Given("I am on the Item Page of source demo")
     public void i_am_on_the_item_page_of_source_demo() {
-        wait = new WebDriverWait(driver, 10);
         // Write code here that turns the phrase above into concrete actions
-        currentURL = driver.getCurrentUrl();
+        inventoryItemPage= new InventoryItemPage(driver);
+        currentURL = inventoryItemPage.getDriver().getCurrentUrl();
         assertEquals("https://www.saucedemo.com/inventory-item.html?id=4", currentURL); // CHECK IF WE ARE ON CORRECT PAGE !
-
     }
 
     @When("I click addToCart Button")
     public void i_click_add_to_cart_button() {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btn_primary btn_inventory")));
-        InventoryItemPage inventoryItemPage = new InventoryItemPage(driver);
         inventoryItemPage.addCartButtonClick();
-
     }
 
     @Then("Added succesfully")

@@ -1,3 +1,4 @@
+@Login
 Feature: Selecting First Item functionality
   As a standard user of Saucedemo
   I want to select first item on the list
