@@ -11,4 +11,8 @@ public class BasePage {
         driver = browserDriver;
         wait = new WebDriverWait(driver,10);
     }
+
+    public WebDriver getDriver() {
+        return driver;
+    }
 }
