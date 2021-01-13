@@ -24,6 +24,11 @@ public class ShoppingCartPage {
         return numberOfItems.size();
     }
 
+    public WebElement getNameOfItem(){
+        WebElement nameOfItem = driver.findElement(By.className("inventory_item_name"));
+        return nameOfItem;
+    }
+
     public void clickCheckoutButton(){
         WebElement checkoutButton = driver.findElement(By.xpath("//*[@id='cart_contents_container']/div/div[2]/a[2]"));
         checkoutButton.click();
