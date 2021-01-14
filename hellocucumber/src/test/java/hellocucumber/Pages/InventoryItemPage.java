@@ -9,16 +9,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class InventoryItemPage {
     static WebDriver driver;
     static WebDriverWait wait;
+    String ButtonString="";
 
     public InventoryItemPage(WebDriver browserDriver){
         driver = browserDriver;
         wait= new WebDriverWait(driver,10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("btn_primary btn_inventory")));
+
 
     }
 
     public void addCartButtonClick(){
         WebElement addToCartButton = driver.findElement(By.xpath("//*[contains(@class,'btn_primary btn_inventory')]"));
+        ButtonString= addToCartButton.getText();
         addToCartButton.click();
     }
 
@@ -33,5 +35,9 @@ public class InventoryItemPage {
 
     public void setDriver(WebDriver driver) {
         this.driver = driver;
+    }
+
+    public  String getButtonString() {
+        return ButtonString;
     }
 }

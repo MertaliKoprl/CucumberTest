@@ -108,9 +108,8 @@ public class StepDefinitions {
     @Then("Added successfully")
     public void added_successfully() {
         // Write code here that turns the phrase above into concrete actions
-        WebElement addToCartButton = driver.findElement(By.xpath("//*[contains(@class,'btn_primary btn_inventory')]"));
-        String nameChecker = addToCartButton.getText();
-        assertEquals("REMOVE", nameChecker); // If the Text on the button is 'REMOVE' So means that it added successsfully.
+        WebElement addToCartButton = driver.findElement(By.xpath("//*[contains(@class,'btn_secondary btn_inventory')]"));
+        assertEquals("REMOVE", addToCartButton.getText()); // If the Text on the button is 'REMOVE' So means that it added successsfully.
         //SoftAssert'te kullanılabilir.
 
     }
@@ -118,13 +117,10 @@ public class StepDefinitions {
     ////////////////////////////GO TO SHOPPING CART//////////////////////////////////////
     @Given("I have successfully add Item to ShoppingCart")
     public void i_have_successfully_add_item_to_shopping_cart() {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("shopping_cart_container")));
         // Write code here that turns the phrase above into concrete actions
-        try {
-            WebElement cartButtonBadge = driver.findElement(By.xpath("//*[contains(@class,'fa-layers-counter shopping_cart_badge')]")); // means there is badge
-        } catch (NotFoundException e) {
-            throw new NotFoundException("Not Founded");
-        }
+
+        WebElement addToCartButton = driver.findElement(By.xpath("//*[contains(@class,'btn_secondary btn_inventory')]"));
+        assertEquals("REMOVE", addToCartButton.getText()); // If the Text on the button is 'REMOVE' So means that it added successsfully.
 
     }
 
@@ -140,7 +136,7 @@ public class StepDefinitions {
     public void i_should_be_in_shopping_cart_page() {
         // Write code here that turns the phrase above into concrete actions
         currentURL = driver.getCurrentUrl();
-        assertEquals("https://www.saucedemo.com/cart.html", currentURL); // CHECK IF WE ARE ON CORRECT PAGE !
+        assertEquals("https://www.saucedemo.com/checkout-step-one.html", currentURL); // CHECK IF WE ARE ON CORRECT PAGE !
 
     }
     ////////////////////////////CHECK ITEM ON THE LIST//////////////////////////////////////
